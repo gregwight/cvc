@@ -2,7 +2,7 @@
 ## Overview
 `cvc` is a command-line utility that can be used to check the validity of SSL server certificates, and in particular verify the number of days remaining until the certificate expires. 
 
-The tool can check one or more FQDNs in parallel, and supports the reading of targets from a file. It is also supports targeting a specific host for each FQDN query, and can display common certificate properties when used with the `-v/--verbose` flag.
+The tool can check one or more FQDNs in parallel, and supports the reading of targets from a file. It also supports targeting a specific host for each FQDN query, and can display common certificate properties when used with the `-v/--verbose` flag.
 
 Exit codes are used to indicate the validation result as shown in the table below, which permits simple integration with most IT infrastructure monitoring platforms to provide alerting for certificate expiry deadlines.
 
